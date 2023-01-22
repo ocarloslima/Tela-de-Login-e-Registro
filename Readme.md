@@ -2,4 +2,4 @@
 
 Segundo projeto de tela de login/registro que faço para o GitHub
 
-É isto! :smile:
+É isso! :smile:
