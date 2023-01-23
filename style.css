@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    background-image: url(./Images/background.jpg);
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+main {
+    margin: 20px;
+}
+
+.container {
+    background-image: linear-gradient(45deg, #455ab8, #313a6e);
+    max-width: 450px;
+    padding: 30px 40px;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form {
+    max-width: 500px;
+    background-color: #17254b;
+    text-align: left;
+    padding: 40px 30px;
+    border-radius: 10px;
+    color: #e2dbff;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 0.8em;
+    margin: 7px 0;
+}
+
+.remeber {
+    display: inline-block;
+    font-size: 0.8em;
+    color: #FFF;
+}
+
+button {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #c245f3;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.05em;
+    color: #c245f3;
+    margin: 7px 0 15px 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #c245f3;
+    color: #FFF;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.05em;
+    background-image: linear-gradient(90deg, #3e53b1, #303186);
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #c3b7ec86;
+}
+
+input[type="checkbox"] {
+    width: 1em;
+    margin: 15px 0;
+    transform: scale(0.8);
+    position: relative;
+    top: 2.5px;
+}
+
+.signup_link {
+    display: block;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.no_password {
+    text-align: center;
+    display: block;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 470px) {
+    .no_password {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
