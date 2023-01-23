@@ -20,6 +20,11 @@ body{
 a {
     text-decoration: none;
     color: #FFF;
+    transition: color .3s ease;
+}
+
+a:hover {
+    color: #e100ff;
 }
 
 main {
@@ -87,6 +92,12 @@ input {
     background-image: linear-gradient(90deg, #3e53b1, #303186);
     border: none;
     border-radius: 5px;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+#repeat_password {
+    margin-bottom: 15px;
 }
 
 input::placeholder {

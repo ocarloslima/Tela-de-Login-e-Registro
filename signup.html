@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Criar nova conta</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Images/Signup Icon.png">
 </head>
+
 <body>
-    
+    <main>
+        <div class="container">
+            <h2>Novo por aqui?</h2>
+            <p>Cria sua conta!</p>
+            <!-- FORMULARIO -->
+            <form action="" class="form">
+                <!-- NOME DE USUÁRIO -->
+                <label for="username" class="username">Nome de Usuário</label>
+                <input type="text" id="username" name="username" placeholder="Nome de usuário" required>
+                <!-- SENHA -->
+                <label for="password" class="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Senha" required> <br>
+                <!-- REPETIR A SENHA -->
+                <label for="repeat_password" class="repeat_password">Repita a senha</label>
+                <input type="password" name="repeat_password" id="repeat_password" placeholder="Repita a senha" required> <br>
+                <!-- BOTÃO -->
+                <button>Criar conta</button>
+                <!-- FAZER LOGIN -->
+                <a href="./index.html" class="signup_link">Faça login</a>
+            </form>
+        </div>
+    </main>
 </body>
+</body>
+
 </html>
