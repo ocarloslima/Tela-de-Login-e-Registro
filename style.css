@@ -14,7 +14,8 @@ body{
     font-family: 'Roboto', sans-serif;
     color: #FFF;
     background-image: url(./Images/background.jpg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a {
